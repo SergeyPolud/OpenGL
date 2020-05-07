@@ -46,7 +46,6 @@ int main(int argc, char** argv)
 
 void setPixel(Point p)
 {
-	
 	glBegin(GL_POINTS);
 	glVertex2f(p.x, p.y);
 	glEnd();
